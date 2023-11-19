@@ -1,0 +1,172 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> CineMagic Theater </title>
+	<link rel="stylesheet" href="CSS/style.css"
+</head>
+<body>
+
+<header>
+<div class="container">
+
+<a href="Homepageindex.html"><img src="image/logo.jpg" alt="logo" class="logo">
+ <nav>
+
+ <ul>
+  <li><a href="Homepageindex.html">Home</a></li>
+  <li><a href="upcomingmain.html">Upcoming Movies</a></li>
+  <li><a href="see_a_movie.html">See a Movie</a></li>
+  <li><a href="tickets.html">Ticketing</a></li>
+  <li><a href="FoodMenu.html">Food & Drinks </a></li>
+  <li><a href="loginpage.html">login</a></li>
+  <li><a href="Contacts.html">Contact</a></li>
+  <li><a href="offers_promos.html">Offers & Promotions</a></li>
+ </ul>
+
+ </nav>
+
+</div>
+</header>
+</body>
+
+
+</html>
+
+<!--SLIDER-->
+
+<html>
+<header>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS/slider.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</header>
+<body>
+<div class="container22">
+	
+<!-- Slider main container -->
+<div class="swiper">
+	
+
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="image/open.jpg"></div>
+    <div class="swiper-slide"><img src="image/mission.jpg"></div>
+    <div class="swiper-slide"><img src="image/blue.jpg"></div>
+    <div class="swiper-slide"><img src="image/indiana.jpg"></div>
+    <div class="swiper-slide"><img src="image/john.jpg"></div>
+    <div class="swiper-slide"><img src="image/flash.jpg_large"></div>
+  </div>
+  <!--  pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!--  navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+ 
+
+ </div> 
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+<script>
+const swiper = new Swiper('.swiper', {
+  autoplay: {
+	delay: 4000,
+	disableOnInteraction: false,
+},
+  
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+ 
+});
+</script>
+</body>
+</html>
+
+
+
+
+
+
+<!--SLIDE 1 -->
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/scroll.css">
+</head>
+
+<body>
+	<div class="container3">
+		<div class="slides">
+			<div class="slides1st">
+				
+				<h1>Welcome to Cinemagic</h1>	
+				<fieldset id="f01">
+				<p> Welcome to Cinemagic Movie Theater, where enchanting stories come to life on the silver screen! We're thrilled to have you here, and we can't wait to make your movie-going experience truly magical. Enjoy the shows!</p>
+				<input type="button" id="button1" onclick="window.location.href='see_a_movie.html';" name="button1" value="Now Playing at Cinemagic">
+				
+				</fieldset>
+				
+			</div>
+			<img src="image/camera.jpg" alt="pic1" class="pic1">
+			
+		</div>
+<!-- SLIDE 2-->
+<div class="slides">
+	<img src="image/popcorn.jpg">
+<div class="slides2nd">
+	<h1>Don't watch your show with an empty stomach</h1>	
+				<fieldset id="f02">
+				<p> Get a better experience with our TASTY popcorn for only $4.99.</p>
+				<input type="button" id="button2" onclick="window.location.href='FoodMenu.html';" name="button2" value="Food Menu">
+				
+				</fieldset>
+				
+			</div>
+			
+		</div>
+
+<!--SLIDE 3-->
+
+	<div class="slides">
+<div class="slides2nd">
+				
+				<h1>Don't want to wait in-line?</h1>	
+				<fieldset id="f02">
+				<p> You can now check for seat availability and ticket prices online!</p>
+				<input type="button" id="button3" onclick="window.location.href='tickets.html';" name="button3" value="Check Availability">
+				
+				</fieldset>
+				
+			</div>
+			<img src="image/coke.jpg">
+		</div>
+<!--FOOTER-->
+	<div class="foot">
+	<h1> Vo, Tri </h1>
+	</div>
+</body>
+
+</html>
