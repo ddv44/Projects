@@ -1,0 +1,69 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> login </title>
+	<link rel="stylesheet" href="CSS/style.css">
+<!-- HEAD FOR BODY-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="CSS/scroll.css">
+	<link rel="stylesheet" href="CSS/account.css">
+</head>
+<body>
+
+<header>
+<div class="container">
+
+<a href="Homepageindex.html"><img src="image/logo.jpg" alt="logo" class="logo">
+ <nav>
+
+ <ul>
+  <li><a href="Homepageindex.html">Home</a></li>
+  <li><a href="upcomingmain.html">Upcoming Movies</a></li>
+  <li><a href="see_a_movie.html">See a Movie</a></li>
+  <li><a href="tickets.html">Ticketing</a></li>
+  <li><a href="FoodMenu.html">Food & Drinks </a></li>
+  <li><a href="loginpage.html">login</a></li>
+  <li><a href="Contacts.html">Contact</a></li>
+  <li><a href="offers_promos.html">Offers & Promotions</a></li>
+ </ul>
+
+
+ </nav>
+
+</div>
+</header>
+
+<!--CREATE ACCOUNT-->
+
+<div class="account">
+<form class="crtacc" name="crtacc" action="#">
+	<fieldset id="acc01">
+	<h1 id="acch1"> Create Account </h1>
+	<br><br>
+	Create username: <input type="text" id="cruname" placeholder=" Create username here" minlength="3" maxlength="18" required>
+	<br><br>
+	Create password: <input type="password" id="crupass" placeholder=" Create password here" minlength="3" maxlength="18" required>
+	<br><br>
+	First Name: <input type="text" id="cusfname" placeholder=" First Name"  maxlength="18" required>
+	<br><br>
+	Last Name: <input type="text" id="cuslname" placeholder=" Last name"  maxlength="18" required>
+	<br><br>
+	<button type="submit" name="createacc" class="buttonlog"  onclick="showinput()"> Create account </button>
+	
+	<button type="reset" name="reset" class="buttonlog" > Reset</button>
+
+
+	
+</fieldset>
+
+</div>
+
+<script src="js/accountlogin.js"></script>
+<!--FOOTER-->
+	<div class="foot">
+	<h1> Vo, Tri </h1>
+	</div>
+</body>
+
+</body>
+</html>
