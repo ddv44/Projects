@@ -1,0 +1,88 @@
+<!-- HEADER/TOP BAR -->
+<html>
+<head>
+	<link rel="stylesheet" href="CSS/header_style.css">
+    	<script src = "JS/tickets.js"></script>
+</head>
+
+<body>
+<header>
+<div class="container">
+
+  <a href="Homepageindex.html"><img src="image/logo.jpg" alt="logo" class="logo">
+ <nav>
+
+ <ul>
+  <li><a href="Homepageindex.html">Home</a></li>
+  <li><a href="upcomingmain.html">Upcoming Movies</a></li>
+  <li><a href="see_a_movie.html">See a Movie</a></li>
+  <li><a href="tickets.html">Ticketing</a></li>
+  <li><a href="FoodMenu.html">Food & Drinks </a></li>
+  <li><a href="loginpage.html">login</a></li>
+  <li><a href="Contacts.html">Contact</a></li>
+  <li><a href="offers_promos.html">Offers & Promotions</a></li>
+ </ul>
+
+
+ </nav>
+</div>
+</header>
+</body>
+</html>
+
+<!-- TICKET AVAILABILITY BODY -->
+<html>
+<head>
+    <title> Ticket Availability </title>
+    <link rel="stylesheet" href="CSS/tick_avail.css">
+</head>
+<body>
+<form id = "tick" target = "_blank">
+<h1> Ticket Availability </h1>
+Select a Movie: <select id="movie" required>
+    <option value = ""> -select a movie- </option>
+    <option value = "1"> Mission: Impossible - Dead Reckoning Part One </option>
+    <option value = "2"> Insidious: The Red Door</option>
+    <option value = "3"> Spider-Man: Across the Spider-Verse</option>
+    <option value = "4"> The Flash </option>
+    <option value = "5"> Past Lives </option>
+    <option value = "6"> Joy Ride </option>
+    <option value = "7"> The Little Mermaid </option>
+    <option value = "8"> Rally Road Racers </option>
+</select>
+Choose a time: <input type="time" required>
+<br><br>
+<h2> Select seats:</h2>
+<div class = "chart">
+    <p id = "screen"> SCREEN </p>
+    <div class = "grid-seat">
+        <button type = "button" class = "seat"> A1 </button>
+        <button type = "button" class = "seat"> A2 </button>
+        <button type = "button" class = "seat"> A3 </button>
+        <button type = "button" class = "seat"> A4 </button>
+        <button type = "button" class = "seat"> A5 </button>
+
+        <button type = "button" class = "seat"> B1 </button>
+        <button type = "button" class = "seat"> B2 </button>
+        <button type = "button" class = "seat"> B3 </button>
+        <button type = "button" class = "seat"> B4 </button>
+        <button type = "button" class = "seat"> B5 </button>
+
+        <button type = "button" class = "seat"> C1 </button>
+        <button type = "button" class = "seat"> C2 </button>
+        <button type = "button" class = "seat"> C3 </button>
+        <button type = "button" class = "seat"> C4 </button>
+        <button type = "button" class = "seat"> C5 </button>
+    </div>
+</div>
+<br><br>
+Choose how many tickets:  <input type="number" min="1" max="15" required>
+
+<input type="submit" value="Buy" onclick = "window.location.href = 'reciept.html'">
+    <br><br>
+</form>
+
+<footer> Alyza Vergel De Dios </footer>
+
+</body>
+</html>
